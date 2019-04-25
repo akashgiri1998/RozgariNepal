@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_datapost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".post">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/result"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/red"
+                android:text="RESULT"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/redl"
+                android:text="HOME"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:background="@drawable/red"
+                android:text="PROFILE"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/post_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/announce"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="183dp"
+        android:background="@drawable/blue"
+        android:text="ANNOUNCE VACANCY"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/Apply"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/blue"
+        android:text="APPLY FOR JOB"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

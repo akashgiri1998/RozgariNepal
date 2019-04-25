@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605414538803",
+    "firebase_url": "https://rozgarinepal100.firebaseio.com",
+    "project_id": "rozgarinepal100",
+    "storage_bucket": "rozgarinepal100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605414538803:android:19747d54a90e784d",
+        "android_client_info": {
+          "package_name": "com.example.aakash.rozgarinepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605414538803-cknrkoee9rqagd4tt1mk3lu73oo1949p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aakash.rozgarinepal",
+            "certificate_hash": "35c5f4c9d7eedbcdf6c1625a0f9400d8716fe814"
+          }
+        },
+        {
+          "client_id": "605414538803-rvnim45n46sinf6f5mdmtk0d4e8rshmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Vb20q_Bcn3H4QyZCNAsuhd1o7Fm5g9w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605414538803-rvnim45n46sinf6f5mdmtk0d4e8rshmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
